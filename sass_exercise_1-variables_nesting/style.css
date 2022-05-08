@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.exercise {
+  border: 1px solid red;
+}
+
+.exercise .exercise-title {
+  color: green;
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+  text-align: center;
+}
+
+.exercise .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.exercise .container article {
+  border: 1px solid green;
+}
+
+.exercise .container article .red {
+  padding: 10px 10px 10px 10px;
+  color: red;
+  font-size: small;
+  text-align: center;
+}
+
+.exercise .container article .blue {
+  padding: 10px 10px 10px 10px;
+  color: blue;
+  font-size: small;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
